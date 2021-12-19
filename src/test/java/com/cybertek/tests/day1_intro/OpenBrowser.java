@@ -32,7 +32,7 @@ public class OpenBrowser {
                 driver.close();
             }
 
-            driver.close();
+            driver.quit();
     }
 
 
