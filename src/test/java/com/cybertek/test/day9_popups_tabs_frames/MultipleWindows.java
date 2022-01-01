@@ -8,6 +8,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
+import java.util.Set;
+
 public class MultipleWindows {
     WebDriver driver;
 
@@ -36,8 +39,57 @@ public class MultipleWindows {
         driver.findElement(By.linkText("Click Here")).click();
         System.out.println("Title after new window:" + driver.getTitle());
 
+        String name = driver.getWindowHandle();
 
 
+        Set<String> windowHandles = driver.getWindowHandles();
 
+
+        for (String handle : windowHandles) {
+
+            if(!handle.equals(name)){
+                driver.switchTo().window(handle);
+            }
+
+        }
+
+        System.out.println("Title after switch new window  :  " + driver.getTitle());
     }
+    
+    @Test
+    
+    public void moreThan2Window(){
+        
+        driver.get("http://practice.cybertekschool.com/windows");
+        driver.findElement(By.linkText("Click Here")).click();
+
+        System.out.println("Before switch : " + driver.getTitle());
+        
+        Set<String> windowsHandles = driver.getWindowHandles();
+
+        for (String handle : windowsHandles) {
+            driver.switchTo().window(handle);
+
+            if(driver.getTitle().equals("New Windows")){
+                break;
+            }
+            
+        }
+
+        System.out.println("After switch title : " + driver.getTitle());
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
 }
+
+
+
+
+
