@@ -45,7 +45,11 @@ public class ExplicitWaitExample {
 
         wait.until(ExpectedConditions.visibilityOf(usernameInput));
 
+
         usernameInput.sendKeys("MikeSmith");
+
+
+
 
 
     }

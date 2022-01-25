@@ -38,10 +38,10 @@ public class SelectDropdonwTest {
         List<WebElement> options = stateDropDown.getOptions();
         System.out.println("options.size() = " + options.size());
 
-     /*   for (WebElement option : options) {
+        for (WebElement option : options) {
             System.out.println(option.getText());
     }
-    */
+
         String expectedOption = "Select a State";
         String actualOutput = stateDropDown.getFirstSelectedOption().getText();
         Assert.assertEquals(actualOutput,expectedOption, "verify first selection");
@@ -66,6 +66,11 @@ public class SelectDropdonwTest {
         expectedOption= "Texas";
         actualOutput = stateDropDown.getFirstSelectedOption().getText();
         Assert.assertEquals(actualOutput,expectedOption, "verify first selection");
+
+
+
+
+
 
 
         }

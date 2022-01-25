@@ -13,7 +13,7 @@ public class IDLocator_Test {
         WebDriver driver = WebDriverFactory.getDriver("chrome");
 
         driver.get("http://practice.cybertekschool.com/multiple_buttons");
-        driver.manage().window().setPosition(new Point(1200,0));
+        driver.manage().window().setPosition(new Point(1375,0));
 
 
         WebElement dontClickButton = driver.findElement(By.id("disappearing_button"));

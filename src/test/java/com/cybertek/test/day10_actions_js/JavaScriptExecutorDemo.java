@@ -44,6 +44,7 @@ public class JavaScriptExecutorDemo {
         WebElement input = driver.findElement(By.cssSelector("#input-example>input"));
 
         JavascriptExecutor jse = (JavascriptExecutor) driver;
+
         String text = "Hello disable input";
         jse.executeScript("arguments[0].setAttribute('value', '"+ text + " ')", input);
 

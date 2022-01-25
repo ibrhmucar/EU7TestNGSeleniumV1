@@ -1,10 +1,13 @@
 package com.cybertek.test.day11_webtables;
 
+import com.cybertek.pages.LoginPage;
+import com.cybertek.utilities.Driver;
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -154,6 +157,8 @@ public class WebTablesExample {
             List<WebElement> rows = driver.findElements(By.xpath("//table[@id='table1']/tbody/tr"));
             return rows.size();
         }
+
+
     }
 
 
