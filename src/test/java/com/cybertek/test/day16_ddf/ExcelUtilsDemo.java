@@ -13,7 +13,7 @@ public class ExcelUtilsDemo {
     @Test
     public void readExcelFile(){
 
-    ExcelUtil qa3short = new ExcelUtil("src/test/resources/Vytracktestdata.xlsx","QA3-short");
+    ExcelUtil qa3short = new ExcelUtil("src/test/resources/Vytracktestdata.xlsx","QA1-short");
 
         System.out.println("qa3short.columnCount() = " + qa3short.columnCount());
 

@@ -5,6 +5,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.cybertek.utilities.BrowserUtils;
 import com.cybertek.utilities.ConfigurationReader;
+import com.cybertek.utilities.ConfigurationReader2;
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -31,14 +32,15 @@ public class TestBase  {
         String projectPath = System.getProperty("user.dir");
         String path = projectPath + "/test-output/report.html";
 
+
         htmlReporter = new ExtentHtmlReporter(path);
 
         report.attachReporter(htmlReporter);
 
-        htmlReporter.config().setReportName("Vytrack Smoke Test");
+        htmlReporter.config().setReportName(ConfigurationReader.get("Testname"));
 
 
-        report.setSystemInfo("Environment", "QA");
+        report.setSystemInfo("Environment", ConfigurationReader.get("Environment"));
         report.setSystemInfo("Browser", ConfigurationReader.get("browser"));
         report.setSystemInfo("OS",System.getProperty("os.name"));
 
@@ -53,7 +55,7 @@ public class TestBase  {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         actions = new Actions(driver);
         wait = new WebDriverWait(driver, 10);
-        driver.get(ConfigurationReader.get("url"));
+        driver.get(ConfigurationReader2.get("url"));
     }
 
 

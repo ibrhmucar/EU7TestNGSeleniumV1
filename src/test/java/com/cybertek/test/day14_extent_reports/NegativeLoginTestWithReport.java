@@ -36,8 +36,8 @@ public class NegativeLoginTestWithReport extends TestBase {
 
         LoginPage loginPage = new LoginPage();
 
-        extentLogger.info("Enter Username: someusername");
-        loginPage.usernameInput.sendKeys("someusername");
+        extentLogger.info("Enter Username: User1");
+        loginPage.usernameInput.sendKeys("User1");
 
         extentLogger.info("Enter Password: UserUser123");
         loginPage.passwordInput.sendKeys("UserUser123");
@@ -45,8 +45,9 @@ public class NegativeLoginTestWithReport extends TestBase {
         extentLogger.info("Click to Login Button");
         loginPage.loginBtn.click();
 
+
         extentLogger.info("Verify Page URL");
-        Assert.assertEquals(driver.getCurrentUrl(), "https://qa1.vytrack.com/user/login");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://qa1.vytrack.com/user/loginQQ");
 
         extentLogger.pass("PASSED");
     }

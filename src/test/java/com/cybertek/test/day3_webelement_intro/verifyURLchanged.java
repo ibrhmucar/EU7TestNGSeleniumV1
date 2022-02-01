@@ -1,4 +1,4 @@
-package com.cybertek.tests.day3_webelement_intro;
+package com.cybertek.test.day3_webelement_intro;
 
 import com.cybertek.utilities.WebDriverFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;

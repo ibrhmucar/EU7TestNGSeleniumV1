@@ -7,6 +7,7 @@ import com.cybertek.utilities.ExcelUtil;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import java.util.*;
 
 public class DDFLoginTest extends TestBase {
 
@@ -24,7 +25,7 @@ public class DDFLoginTest extends TestBase {
     @Test(dataProvider = "userData")
 
     public void test1(String username, String password, String firstname, String lastname){
-        extentLogger = report.createTest("Test " + firstname + " " + lastname);
+    //    extentLogger = report.createTest("Test " + firstname + " " + lastname);
 
         LoginPage loginPage = new LoginPage();
         loginPage.login(username,password);
@@ -38,7 +39,7 @@ public class DDFLoginTest extends TestBase {
 
         Assert.assertEquals(actualFullname,expectedFullname,"verify fullname");
 
-        extentLogger.pass("PASSED");
+     //   extentLogger.pass("PASSED");
     }
 
 
