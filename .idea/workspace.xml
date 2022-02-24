@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cecc6a0-772f-414c-a354-f3b855185ae3" name="Changes" comment="changed" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="22PsKlg5IvTqFNUegBFcPmdD8M3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/cybertek" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.17701149" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cybertek.utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.MultipleWindows.SwitchWindowsTest">
+    <configuration name="MultipleWindows.SwitchWindowsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU7TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.test.day9_popups_tabs_frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.test.day9_popups_tabs_frames" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.test.day9_popups_tabs_frames.MultipleWindows" />
+      <option name="METHOD_NAME" value="SwitchWindowsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoSelectDropdown.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU7TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.test.day8_types_of_elements_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.test.day8_types_of_elements_2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.test.day8_types_of_elements_2.NoSelectDropdown" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopupsAndAlerts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU7TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.test.day9_popups_tabs_frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.test.day9_popups_tabs_frames" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.test.day9_popups_tabs_frames.PopupsAndAlerts" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopupsAndAlerts.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU7TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.test.day9_popups_tabs_frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.test.day9_popups_tabs_frames" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.test.day9_popups_tabs_frames.PopupsAndAlerts" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopupsAndAlerts.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU7TestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.test.day9_popups_tabs_frames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.test.day9_popups_tabs_frames" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.test.day9_popups_tabs_frames.PopupsAndAlerts" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PopupsAndAlerts.test2" />
+        <item itemvalue="TestNG.PopupsAndAlerts.test1" />
+        <item itemvalue="TestNG.PopupsAndAlerts" />
+        <item itemvalue="TestNG.NoSelectDropdown.test1" />
+        <item itemvalue="TestNG.MultipleWindows.SwitchWindowsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cecc6a0-772f-414c-a354-f3b855185ae3" name="Changes" comment="" />
+      <created>1639750496365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639750496365</updated>
+    </task>
+    <task id="LOCAL-00001" summary="New Added">
+      <created>1639751488964</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639751488964</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New EU7 Project">
+      <created>1639752828484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639752828484</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New EU7 Project">
+      <created>1639752945260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639752945260</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Last Update">
+      <created>1639753392729</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639753392729</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update file">
+      <created>1639763373574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639763373574</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update file">
+      <created>1639763651122</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639763651122</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update file">
+      <created>1639763836735</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639763836735</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update file">
+      <created>1639766465753</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639766465753</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new test file added">
+      <created>1639830180289</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639830180289</updated>
+    </task>
+    <task id="LOCAL-00010" summary="driver.quit() added">
+      <created>1639948644570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639948644570</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changed">
+      <created>1639948741521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639948741521</updated>
+    </task>
+    <task id="LOCAL-00012" summary="changed">
+      <created>1640951276240</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1640951276240</updated>
+    </task>
+    <task id="LOCAL-00013" summary="changed">
+      <created>1641065172780</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1641065172780</updated>
+    </task>
+    <task id="LOCAL-00014" summary="changed">
+      <created>1641070763231</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641070763231</updated>
+    </task>
+    <task id="LOCAL-00015" summary="changed">
+      <created>1641670068496</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1641670068496</updated>
+    </task>
+    <task id="LOCAL-00016" summary="changed">
+      <created>1642243455892</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642243455892</updated>
+    </task>
+    <task id="LOCAL-00017" summary="changed">
+      <created>1643113423827</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1643113423827</updated>
+    </task>
+    <task id="LOCAL-00018" summary="changed">
+      <created>1643317274810</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1643317274810</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changed">
+      <created>1643745619201</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1643745619201</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Selenium_Assignment" />
+    </ignored-roots>
+    <MESSAGE value="New Added" />
+    <MESSAGE value="New EU7 Project" />
+    <MESSAGE value="Last Update" />
+    <MESSAGE value="Update forget_password" />
+    <MESSAGE value="Update file" />
+    <MESSAGE value="new test file added" />
+    <MESSAGE value="driver.quit() added" />
+    <MESSAGE value="changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GitDay$_Users_ibrahimucar_Library_Caches_JetBrains_IdeaIC2021_3_temp_testng_customsuite_xml__1_.ic" NAME="$USER_HOME$/Library/Caches/JetBrains/IdeaIC2021.3/temp-testng-customsuite.xml (1) Coverage Results" MODIFIED="1643375561436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.cybertek.test.day16_ddf.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/GitDay$_Users_ibrahimucar_Desktop_GitDay_testng_runner_xml.ic" NAME="$PROJECT_DIR$/testng_runner.xml Coverage Results" MODIFIED="1643222850580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
